@@ -2,7 +2,8 @@ h1, h2, h3, h4 {
   font-family: 'Roboto', sans-serif; }
 
 p, a {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px; }
 
 .text {
   text-align: center; }
@@ -42,26 +43,38 @@ h1 {
       padding: 35px; } }
   @media (min-width: 1024px) {
     .textline {
-      text-align: center;
-      margin: 1% 0 2% 0;
-      padding: 40px; } }
+      float: left;
+      margin: 1%;
+      margin-left: 2%;
+      margin-bottom: 12%;
+      width: 48%;
+      height: 9em;
+      padding: 35px; } }
 
 .textbox {
   background-color: #ffe9a1;
-  padding: 10px; }
+  padding: 30px;
+  float: left; }
   .textbox h2 {
     text-align: center; }
   @media (max-width: 767px) {
     .textbox {
       margin: 10px;
       height: 20em;
-      padding-top: 10%; } }
+      padding-top: 10%;
+      float: none; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     .textbox {
-      float: left;
       margin: 10px;
       width: 48%;
       height: 18em; } }
+  @media (min-width: 1024px) {
+    .textbox {
+      margin: 10px;
+      width: 47%;
+      height: 20em;
+      margin-top: -5%;
+      margin-left: 2%; } }
 
 .overlay {
   color: #ffe9a1;
@@ -92,8 +105,8 @@ h1 {
         background-color: #ffe9a1; } }
     @media (min-width: 1024px) {
       .overlay.bottom {
-        top: 73%;
-        left: 45%; } }
+        right: 25%;
+        width: 100px; } }
 
 #banana {
   background-image: url("../img/banana.jpeg");
@@ -128,29 +141,33 @@ h1 {
   @media (min-width: 1024px) {
     #photo1 {
       height: 14.5em;
-      width: 90%;
-      margin: auto;
-      margin-bottom: 2%; } }
+      float: left;
+      width: 47%;
+      margin-left: 2%;
+      margin-top: 1%; } }
 
 #photo2 {
   background-image: url("../img/icecream.jpeg");
+  float: left;
   background-size: cover;
   background-position: center; }
   @media (max-width: 767px) {
     #photo2 {
       margin: 10px;
       margin-top: 0px;
-      height: 15em; } }
+      height: 15em;
+      float: none; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     #photo2 {
       margin-left: 1%;
       width: 48%;
       height: 25em;
-      float: left;
       margin-top: -10%; } }
   @media (min-width: 1024px) {
     #photo2 {
+      margin-left: 1%;
       width: 48%;
-      height: 25em; } }
+      height: 25em;
+      margin-top: -10%; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -29,29 +29,33 @@
   }
   @include desktop {
     height: 14.5em;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 2%;
+    float: left;
+    width: 47%;
+    margin-left: 2%;
+    margin-top: 1%;
   }
 }
 
 #photo2 {
   background-image: url('../img/icecream.jpeg');
+  float: left;
   @include photo {}
   @include mobile{
     margin: 10px;
     margin-top: 0px;
     height: 15em;
+    float: none;
   }
   @include tablet {
     margin-left: 1%;
     width: 48%;
     height: 25em;
-    float: left;
     margin-top: -10%;
   }
   @include desktop{
+    margin-left: 1%;
     width: 48%;
     height: 25em;
+    margin-top: -10%;
   }
 }

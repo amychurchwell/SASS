@@ -11,8 +11,6 @@
   background-color: $light;
   padding: 10px;
   height: 10em;
-  @include tablet {
-  }
 }
 
 .textline {
@@ -33,15 +31,20 @@
     padding: 35px;
   }
   @include desktop {
-    text-align: center;
-    margin: 1% 0 2% 0;
-    padding: 40px;
+    float: left;
+    margin: 1%;
+    margin-left: 2%;
+    margin-bottom: 12%;
+    width: 48%;
+    height: 9em;
+    padding: 35px;
   }
 }
 
 .textbox {
   background-color: $light;
-  padding: 10px;
+  padding: 30px;
+  float: left;
     & h2 {
       text-align: center;
     }
@@ -49,16 +52,22 @@
     margin: 10px;
     height: 20em;
     padding-top: 10%;
+    float: none;
   }
   @include tablet {
-    float: left;
     margin: 10px;
     width: 48%;
     height: 18em;
   }
+  @include desktop{
+    margin: 10px;
+    width: 47%;
+    height: 20em;
+    margin-top: -5%;
+    margin-left: 2%;
+  }
 }
 
-//clean this up//
 .overlay {
   color: $light;
   text-transform: lowercase;
@@ -88,8 +97,8 @@
       background-color: $light;
     }
     @include desktop {
-      top: 73%;
-      left: 45%;
+      right: 25%;
+      width: 100px;
     }
   }
 }
