@@ -81,17 +81,18 @@ Less bells and whistles, but ultimately a better approach for us because it is m
 ---
 ### SASS elements table
 
-5<
 
 A table listing all of the Sass elements your original from Wednesday included (no fewer than five), with an explanation about how you used each element on your project from the week (not what you will be doing on your project moving forward).
 
 This is similar to the table you were asked to created in class on Wednesday, and in your first CSS code review.
 
+How is this table different?
+
 
 | TERM  | DESCRIPTION  | IMPLEMENTATION |
 |---|---|---|
-|   MIXIN    | A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. |  |
-|  @CONTENT  | This makes it possible to define abstractions relating to the construction of selectors and directives. |  |
-|   IF STATEMENT   | @if statements are tried in order until one succeeds or the @else is reached. |  |
+|   MIXIN    | A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. | We utilized mixins to add media queries to any desired element. |
+|  @CONTENT  | This makes it possible to define abstractions relating to the construction of selectors and directives. | Allowed us to write code where we could insert custom content depending on the situation. |
+|   IF STATEMENT   | @if statements are tried in order until one succeeds or the @else is reached. | **See thoughts and feedback section** |
 |   EACH LOOP   | The @each rule sets $var to each item in the list or map, then outputs the styles it contains using that value of $var. |  |
 |   VARIABLES   | Variables are a way to store information that you want to reuse throughout your stylesheet. |   |
