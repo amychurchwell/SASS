@@ -43,6 +43,7 @@
   @include tablet {
     float: left;
     margin: 10px;
+    margin-top: -1%;
     width: 48%;
     height: 18em;
   }
@@ -56,24 +57,19 @@
   position: absolute;
   height: 30px;
   width: 80px;
-  &.top{
+  &.top {
     background-color: $dark;
-    padding-top: 2px;
-    right: 40%;
-    margin-top: -10px;
+    @include overlay{}
   }
-  &.bottom{
+  &.bottom {
     background-color: $blue;
     color: $dark;
+    @include mobile {
+      @include overlay{}
+    }
     @include tablet {
       right: 20%;
+      background-color: $light;
     }
-  }
-  @include mobile {
-    padding-top: 2px;
-    height: 30px;
-    width: 80px;
-    right: 40%;
-    margin-top: -10px;
   }
 }

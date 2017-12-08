@@ -48,3 +48,9 @@
   background-size: cover;
   background-position: center;
 }
+
+@mixin overlay {
+  padding-top: 2px;
+  right: 40%;
+  margin-top: -10px;
+}
