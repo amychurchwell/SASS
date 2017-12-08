@@ -41,3 +41,10 @@
     clear: both;
   }
 }
+
+// Images //
+
+@mixin photo {
+  background-size: cover;
+  background-position: center;
+}

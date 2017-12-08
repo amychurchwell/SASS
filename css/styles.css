@@ -1,3 +1,48 @@
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif; }
 
+p, a {
+  font-family: 'Open Sans', sans-serif; }
+
+.text {
+  text-align: center; }
+
+h1 {
+  color: #58cde1; }
+
+@media (max-width: 767px) {
+  .mixedbox {
+    margin: 10px; } }
+
+@media (max-width: 767px) {
+  #banana, #photo1 {
+    height: 10em; } }
+
+.text {
+  height: 10em; }
+  @media (max-width: 767px) {
+    .text {
+      background-color: #f9bac5; } }
+
+.textline {
+  background-color: #C6D8AF;
+  padding: 10px;
+  line-height: 0; }
+  @media (max-width: 767px) {
+    .textline {
+      margin: 10px; } }
+
+#banana {
+  background-image: url("../img/banana.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+#photo1 {
+  background-image: url("../img/house.jpeg");
+  background-size: cover;
+  background-position: center; }
+  @media (max-width: 767px) {
+    #photo1 {
+      margin: 10px; } }
 
 /*# sourceMappingURL=styles.css.map */

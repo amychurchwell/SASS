@@ -1,0 +1,12 @@
+#banana{
+  background-image: url('../img/banana.jpeg');
+  @include photo {}
+}
+
+#photo1{
+  background-image: url('../img/house.jpeg');
+  @include photo {}
+  @include mobile{
+    margin: 10px;
+  }
+}

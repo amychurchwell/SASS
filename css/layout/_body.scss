@@ -1,0 +1,28 @@
+.mixedbox {
+  @include mobile {
+    margin: 10px;
+
+  }
+}
+
+#banana, #photo1 {
+  @include mobile {
+  height: 10em;
+  }
+}
+
+.text {
+  height: 10em;
+  @include mobile {
+    background-color: $pink;
+  }
+}
+
+.textline {
+  background-color: $green;
+  padding: 10px;
+  line-height: 0;
+  @include mobile {
+    margin: 10px;
+  }
+}

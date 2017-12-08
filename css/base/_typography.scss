@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide typography.
+// -----------------------------------------------------------------------------
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text {
+  text-align: center;
+}
+
+h1 {
+  color: $blue;
+}
