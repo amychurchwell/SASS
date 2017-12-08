@@ -1,4 +1,4 @@
-#banana{
+#banana {
   background-image: url('../img/banana.jpeg');
   @include photo {}
   @include mobile {
@@ -7,9 +7,12 @@
   @include tablet {
     height: 15em;
   }
+  @include desktop{
+    height: 20em;
+  }
 }
 
-#photo1{
+#photo1 {
   background-image: url('../img/house.jpeg');
   @include photo {}
   @include mobile{
@@ -24,9 +27,15 @@
     margin-left: 1%;
     margin-top: 1%;
   }
+  @include desktop {
+    height: 14.5em;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2%;
+  }
 }
 
-#photo2{
+#photo2 {
   background-image: url('../img/icecream.jpeg');
   @include photo {}
   @include mobile{
@@ -40,5 +49,9 @@
     height: 25em;
     float: left;
     margin-top: -10%;
+  }
+  @include desktop{
+    width: 48%;
+    height: 25em;
   }
 }

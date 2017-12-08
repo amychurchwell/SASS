@@ -12,6 +12,11 @@ h1 {
 
 .mixedbox {
   margin: 10px; }
+  @media (min-width: 1024px) {
+    .mixedbox {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 2%; } }
 
 .text {
   background-color: #ffe9a1;
@@ -35,6 +40,11 @@ h1 {
       width: 48%;
       height: 9em;
       padding: 35px; } }
+  @media (min-width: 1024px) {
+    .textline {
+      text-align: center;
+      margin: 1% 0 2% 0;
+      padding: 40px; } }
 
 .textbox {
   background-color: #ffe9a1;
@@ -50,7 +60,6 @@ h1 {
     .textbox {
       float: left;
       margin: 10px;
-      margin-top: -1%;
       width: 48%;
       height: 18em; } }
 
@@ -66,6 +75,9 @@ h1 {
     padding-top: 2px;
     right: 40%;
     margin-top: -10px; }
+    @media (min-width: 1024px) {
+      .overlay.top {
+        right: 45%; } }
   .overlay.bottom {
     background-color: #58cde1;
     color: #3A3335; }
@@ -78,6 +90,10 @@ h1 {
       .overlay.bottom {
         right: 20%;
         background-color: #ffe9a1; } }
+    @media (min-width: 1024px) {
+      .overlay.bottom {
+        top: 73%;
+        left: 45%; } }
 
 #banana {
   background-image: url("../img/banana.jpeg");
@@ -89,6 +105,9 @@ h1 {
   @media (min-width: 768px) and (max-width: 1023px) {
     #banana {
       height: 15em; } }
+  @media (min-width: 1024px) {
+    #banana {
+      height: 20em; } }
 
 #photo1 {
   background-image: url("../img/house.jpeg");
@@ -106,6 +125,12 @@ h1 {
       width: 48%;
       margin-left: 1%;
       margin-top: 1%; } }
+  @media (min-width: 1024px) {
+    #photo1 {
+      height: 14.5em;
+      width: 90%;
+      margin: auto;
+      margin-bottom: 2%; } }
 
 #photo2 {
   background-image: url("../img/icecream.jpeg");
@@ -123,5 +148,9 @@ h1 {
       height: 25em;
       float: left;
       margin-top: -10%; } }
+  @media (min-width: 1024px) {
+    #photo2 {
+      width: 48%;
+      height: 25em; } }
 
 /*# sourceMappingURL=styles.css.map */

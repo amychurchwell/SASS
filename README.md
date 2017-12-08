@@ -7,7 +7,8 @@ _Amy Churchwell, December 8 2017._
 
 ##### Philosophy
 ###### KISS - Keep it simple, stupid!
-My ultimate goal for the day is to focus on creating code that is _not repetitive_, straight-forward, and clear. I want to use the most direct approach to solve a problem, only using mixins and functions that help me achieve simplicity. (The irony is that this README is really verbose!)
+My ultimate goal for the day is to focus on creating code that is _not repetitive_, straight-forward, and clear. I want to use the most direct approach to solve a problem, only using mixins and functions that help me achieve simplicity.
+
 
 ##### Workflow
 1. My intentions are to first build responsive templates from small to large (mobile > tablet > desktop). Focusing primarily on the main layout sections of the page.
@@ -20,6 +21,8 @@ My ultimate goal for the day is to focus on creating code that is _not repetitiv
 
 4. Github commits will be made early and often.
 
+##### Hiccups
+You cannot apply content to two mixins at once. Therefore, if you want to write styles for both @include tablet and @include desktop you have to write them out separately, causing some repetition in the code. Making mixins for content that has repeating styles in both sizes doesn't make sense to me.
 ---
 
 ### Two-Day Project Thoughts and Feedback
@@ -84,7 +87,8 @@ Less bells and whistles, but ultimately a better approach for us because it is m
 
 _This is similar to the table you were asked to created in class on Wednesday, and in your first CSS code review._
 
-**? QUESTION:** Considering that this table is supposed to have explanations from how we used the elements on our Wed-Thurs project: How is this table different from the table we created on Wednesday?
+
+ Considering that this table is supposed to have explanations from how we used the elements on our Wed-Thurs project: How is this table different from the table we created on Wednesday?
 
 I mentioned briefly on Thursday that I think this table would be more helpful if it were broken down into the page's components. Then underneath each component a student could write out what methods/tools they planned to use to accomplish the desired result. That sort of table would be something useful to reference while working.
 
