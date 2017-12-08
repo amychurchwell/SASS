@@ -19,7 +19,9 @@
   }
   @include tablet {
     height: 15em;
-    @include grid (2, 0%){}
+    float: left;
+    width: 48%;
+    margin-left: 1%;
   }
 }
 
@@ -32,10 +34,10 @@
     height: 15em;
   }
   @include tablet {
-    margin: 2%;
-    width: 40%;
-    height: 24em;
+    margin-left: 1%;
+    width: 48%;
+    height: 25em;
     float: left;
-    margin-top: -10%;
+    margin-top: -11%;
   }
 }
