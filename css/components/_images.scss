@@ -1,6 +1,12 @@
 #banana{
   background-image: url('../img/banana.jpeg');
   @include photo {}
+  @include mobile {
+    height: 15em;
+  }
+  @include tablet {
+    height: 15em;
+  }
 }
 
 #photo1{
@@ -8,5 +14,23 @@
   @include photo {}
   @include mobile{
     margin: 10px;
+    margin-top: 20px;
+    height: 15em;
+  }
+  @include tablet {
+    height: 15em;
+  }
+}
+
+#photo2{
+  background-image: url('../img/icecream.jpeg');
+  @include photo {}
+  @include mobile{
+    margin: 10px;
+    margin-top: 0px;
+    height: 15em;
+  }
+  @include tablet {
+    height: 15em;
   }
 }

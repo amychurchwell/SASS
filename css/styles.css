@@ -14,28 +14,66 @@ h1 {
   .mixedbox {
     margin: 10px; } }
 
-@media (max-width: 767px) {
-  #banana, #photo1 {
-    height: 10em; } }
-
 .text {
-  height: 10em; }
+  background-color: #fff4b8; }
   @media (max-width: 767px) {
     .text {
-      background-color: #f9bac5; } }
+      height: 10em;
+      padding: 10px; } }
 
 .textline {
-  background-color: #C6D8AF;
-  padding: 10px;
-  line-height: 0; }
+  background-color: #f9bac5; }
   @media (max-width: 767px) {
     .textline {
-      margin: 10px; } }
+      margin: 10px;
+      margin-bottom: 30px;
+      padding: 10px;
+      line-height: 0; } }
+
+.textbox {
+  background-color: #fff4b8; }
+  .textbox h2 {
+    text-align: center; }
+  @media (max-width: 767px) {
+    .textbox {
+      margin: 10px;
+      padding: 10px;
+      height: 20em;
+      padding-top: 10%; } }
+
+.overlay {
+  color: #fff4b8;
+  text-transform: lowercase;
+  text-align: center;
+  position: absolute; }
+  .overlay.top {
+    background-color: #3A3335;
+    padding-top: 2px;
+    height: 30px;
+    width: 80px;
+    right: 40%;
+    margin-top: -10px; }
+  .overlay.bottom {
+    background-color: #58cde1;
+    color: #3A3335; }
+  @media (max-width: 767px) {
+    .overlay {
+      padding-top: 2px;
+      height: 30px;
+      width: 80px;
+      right: 40%;
+      margin-top: -10px; } }
 
 #banana {
   background-image: url("../img/banana.jpeg");
   background-size: cover;
   background-position: center; }
+  @media (max-width: 767px) {
+    #banana {
+      height: 15em; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #banana {
+      height: 15em; } }
 
 #photo1 {
   background-image: url("../img/house.jpeg");
@@ -43,6 +81,24 @@ h1 {
   background-position: center; }
   @media (max-width: 767px) {
     #photo1 {
-      margin: 10px; } }
+      margin: 10px;
+      margin-top: 20px;
+      height: 15em; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #photo1 {
+      height: 15em; } }
+
+#photo2 {
+  background-image: url("../img/icecream.jpeg");
+  background-size: cover;
+  background-position: center; }
+  @media (max-width: 767px) {
+    #photo2 {
+      margin: 10px;
+      margin-top: 0px;
+      height: 15em; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #photo2 {
+      height: 15em; } }
 
 /*# sourceMappingURL=styles.css.map */
