@@ -49,9 +49,9 @@ h1 {
   @media (min-width: 768px) and (max-width: 1023px) {
     .textbox {
       float: left;
-      margin: 1%;
+      margin: 10px;
       width: 48%;
-      height: 18.5em; } }
+      height: 18em; } }
 
 .overlay {
   color: #fff4b8;
@@ -70,7 +70,7 @@ h1 {
     color: #3A3335; }
     @media (min-width: 768px) and (max-width: 1023px) {
       .overlay.bottom {
-        right: 25%; } }
+        right: 20%; } }
   @media (max-width: 767px) {
     .overlay {
       padding-top: 2px;
@@ -101,10 +101,11 @@ h1 {
       height: 15em; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     #photo1 {
-      height: 15em;
+      height: 14.5em;
       float: left;
       width: 48%;
-      margin-left: 1%; } }
+      margin-left: 1%;
+      margin-top: 1%; } }
 
 #photo2 {
   background-image: url("../img/icecream.jpeg");
@@ -121,6 +122,6 @@ h1 {
       width: 48%;
       height: 25em;
       float: left;
-      margin-top: -11%; } }
+      margin-top: -10%; } }
 
 /*# sourceMappingURL=styles.css.map */

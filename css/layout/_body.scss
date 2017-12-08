@@ -42,9 +42,9 @@
   }
   @include tablet {
     float: left;
-    margin: 1%;
+    margin: 10px;
     width: 48%;
-    height: 18.5em;
+    height: 18em;
   }
 }
 
@@ -66,7 +66,7 @@
     background-color: $blue;
     color: $dark;
     @include tablet {
-      right: 25%;
+      right: 20%;
     }
   }
   @include mobile {

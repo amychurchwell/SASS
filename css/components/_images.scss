@@ -18,10 +18,11 @@
     height: 15em;
   }
   @include tablet {
-    height: 15em;
+    height: 14.5em;
     float: left;
     width: 48%;
     margin-left: 1%;
+    margin-top: 1%;
   }
 }
 
@@ -38,6 +39,6 @@
     width: 48%;
     height: 25em;
     float: left;
-    margin-top: -11%;
+    margin-top: -10%;
   }
 }
