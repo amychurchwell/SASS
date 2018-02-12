@@ -4,14 +4,6 @@ _Amy Churchwell, December 8 2017._
 
 ### A project to explore responsive design.
 
-#### Mobile
-
-![screen shot of mobile design](https://raw.githubusercontent.com/amychurchwell/sass/master/img/mobile.png)
-
-#### Tablet
-
-![screen shot of tablet design](https://raw.githubusercontent.com/amychurchwell/sass/master/img/tablet.png)
-
 #### Desktop
 
 ![screen shot of desktop design](https://raw.githubusercontent.com/amychurchwell/sass/master/img/desktop.png)
