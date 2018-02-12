@@ -2,6 +2,29 @@
 ### Continued exploration from [Epicodus 2-day SASS project](https://www.learnhowtoprogram.com/css/sass/integrating-sass-2-day-project).
 _Amy Churchwell, December 8 2017._
 
+### A project to explore responsive design.
+
+#### Mobile
+
+![screen shot of mobile design](https://raw.githubusercontent.com/amychurchwell/sass/master/img/mobile.png)
+
+#### Tablet
+
+![screen shot of tablet design](https://raw.githubusercontent.com/amychurchwell/sass/master/img/tablet.png)
+
+#### Desktop
+
+![screen shot of desktop design](https://raw.githubusercontent.com/amychurchwell/sass/master/img/desktop.png)
+
+---
+### Setup Instructions
+
+Clone from Github
+```
+$ git clone https://github.com/amychurchwell/SASS.git
+```
+
+Open index.html in browser of choice.
 ---
 ### Approach
 
